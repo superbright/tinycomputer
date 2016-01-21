@@ -220,7 +220,7 @@
 		},
 	"\/assets\/sass\/css\/top.css": {
 		"fileType": 16,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/sass\/css\/top.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -480,13 +480,13 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "hilal koyuncu",
+"lastSavedByUser": "IGAL NASSIMA",
 "manualImportLinks": {
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "_LANDINGDEV",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_yellow"
 	},
 "projectSettings": {

@@ -1,5 +1,9 @@
 // skel-baseline v3.0.0 | (c) n33 | skel.io | MIT licensed
 
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700,600|Source+Sans+Pro);
+//font-family: 'Source Code Pro', ;
+//font-family: 'Source Sans Pro', sans-serif;
+
 // Misc.
 	$misc: (
 		z-index-base:		10000
@@ -21,7 +25,8 @@
 
 // Font.
 	$font: (
-		family:				(Arial, Helvetica, sans-serif),
+		family: 			'Source Code Pro', 
+		
 		family-fixed:		('Courier New', monospace),
 		weight:				normal,
 		weight-bold:		bold
