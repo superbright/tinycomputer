@@ -8,7 +8,7 @@
 
 	#banner {
 		@include padding(8em, 0);
-		/* background: #f6f6f6; */
+		background-color: rgba(0, 0, 0, 0.88);
 		text-align: center;
 		margin: 0 auto;
 
@@ -31,7 +31,8 @@
 		}
 
 		@include breakpoint(xlarge) {
-			@include padding(7em, 0);
+			@include padding(4em, 4em);
+			    	
 		}
 
 		@include breakpoint(large) {
