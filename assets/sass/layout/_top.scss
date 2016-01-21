@@ -6,10 +6,13 @@
 
 /* Top */
 	#top {
-		background-color: _palette(dark-grey,bg);
+		/*background-color: _palette(dark-grey,bg);*/
+		background-image: url("../../images/glitch-3.gif");
+		background-repeat: no-repeat;
+		background-size: cover;
 
 		.logo {
-			width: 143px;
+			width: 160px;
 		}
 
 		.logo-container {
@@ -18,9 +21,9 @@
 
 		@include breakpoint(small) {
 			.logo {
-				width: 286px;
+				width: 320px;
 			}
-			
+
 			.logo-container {
 				text-align: center;
 			}			

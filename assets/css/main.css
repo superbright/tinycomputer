@@ -1823,6 +1823,12 @@ button,
   button.big,
   .button.big {
     font-size: 1.35em; }
+  input[type="submit"].submit-button,
+  input[type="reset"].submit-button,
+  input[type="button"].submit-button,
+  button.submit-button,
+  .button.submit-button {
+    margin-top: 7px; }
   input[type="submit"].alt,
   input[type="reset"].alt,
   input[type="button"].alt,
@@ -1888,7 +1894,13 @@ button,
     input[type="button"],
     button,
     .button {
-      padding: 0; } }
+      padding: 0; }
+      input[type="submit"].submit-button,
+      input[type="reset"].submit-button,
+      input[type="button"].submit-button,
+      button.submit-button,
+      .button.submit-button {
+        margin-top: 7px; } }
 
 /* Grid Demo */
 .grid-demo {
@@ -2155,13 +2167,16 @@ body {
 
 /* Top */
 #top {
-  background-color: #272727; }
+  /*background-color: _palette(dark-grey,bg);*/
+  background-image: url("../../images/glitch-3.gif");
+  background-repeat: no-repeat;
+  background-size: cover; }
   #top .logo {
-    width: 143px; }
+    width: 160px; }
   #top .logo-container {
     text-align: left; }
   @media screen and (max-width: 736px) {
     #top .logo {
-      width: 286px; }
+      width: 320px; }
     #top .logo-container {
       text-align: center; } }

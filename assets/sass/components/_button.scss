@@ -53,13 +53,17 @@
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
 			width: 100%;
 		}
-
+  
 		&.small {
 			font-size: 0.8em;
 		}
 
 		&.big {
 			font-size: 1.35em;
+		}
+
+		&.submit-button {
+			margin-top: 7px;
 		}
 
 		&.alt {
@@ -106,5 +110,8 @@
 
 		@include breakpoint(xsmall) {
 			padding: 0;
+				&.submit-button {
+			margin-top: 7px;
+		}
 		}
 	}
