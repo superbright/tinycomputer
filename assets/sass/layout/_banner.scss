@@ -8,8 +8,9 @@
 
 	#banner {
 		@include padding(8em, 0);
-		background: #f6f6f6;
+		/* background: #f6f6f6; */
 		text-align: center;
+		margin: 0 auto;
 
 		h2 {
 			font-size: 4em;
@@ -18,9 +19,15 @@
 			padding: 0;
 		}
 
+		h4 {
+			color: _palette(accent3,bg);
+		}
+
 		p {
-			font-size: 1.5em;
+			font-size: 1.125em;
 			margin-bottom: 1.75em;
+			color: _palette(light-grey,bg);
+			text-align: left;
 		}
 
 		@include breakpoint(xlarge) {
@@ -47,7 +54,11 @@
 			}
 
 			p {
-				font-size: 1.25em;
+				font-size: 1em;
+			}
+
+			.submit-button-wrapper {
+				margin-top: 20px;
 			}
 		}
 

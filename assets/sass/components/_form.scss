@@ -25,11 +25,11 @@
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
-		background: _palette(border-bg);
+		/* background: _palette(border-bg);
 		border-radius: _size(border-radius);
 		border: none;
-		border: solid _size(border-width) _palette(border);
-		color: inherit;
+		border: solid _size(border-width) _palette(border); */
+		color: _palette(accent3,bg);
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -41,8 +41,8 @@
 		}
 
 		&:focus {
-			border-color: _palette(accent1, bg);
-			box-shadow: 0 0 0 _size(border-width) _palette(accent1, bg);
+		/*	border-color: _palette(accent1, bg);
+			box-shadow: 0 0 0 _size(border-width) _palette(accent1, bg); */
 		}
 	}
 
@@ -119,17 +119,17 @@
 
 		&:checked + label {
 			&:before {
-				background: _palette(accent2, bg);
+				/* background: _palette(accent2, bg);
 				border-color: _palette(accent2, bg);
 				color: _palette(accent2, fg-bold);
-				content: '\f00c';
+				content: '\f00c'; */
 			}
 		}
 
 		&:focus + label {
 			&:before {
-				border-color: _palette(accent1, bg);
-				box-shadow: 0 0 0 _size(border-width) _palette(accent1, bg);
+				/*border-color: _palette(accent1, bg);
+				box-shadow: 0 0 0 _size(border-width) _palette(accent1, bg); */
 			}
 		}
 	}
@@ -151,26 +151,54 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: _palette(fg-light) !important;
+		/*color: _palette(fg-light) !important;*/
+		color: _palette(accent3,bg);
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: _palette(fg-light) !important;
+		/*color: _palette(fg-light) !important;*/
+		color: _palette(accent3,bg);
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: _palette(fg-light) !important;
+		/*color: _palette(fg-light) !important;*/
+		color: _palette(accent3,bg);
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: _palette(fg-light) !important;
+		/*color: _palette(fg-light) !important;*/
+		color: _palette(accent3,bg);
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: _palette(fg-light) !important;
+		/*color: _palette(fg-light) !important;*/
+		color: _palette(accent3,bg);
 		opacity: 1.0;
+	}
+
+	/*custom css*/
+
+	input[type="text"] {
+		display: block;
+		margin: 0;
+		width: 100%;
+		font-family: sans-serif;
+		font-size: 18px;
+		appearance: none;
+		box-shadow: none;
+		border-radius: none;
+		border-color: _palette(accent3, bg);
+		transition: border 0.3s;
+		border-left-color: transparent;
+    	border-right-color: transparent;
+    	border-top-color: transparent;
+    	background-color: transparent;
+	}
+
+	input[type="text"]:focus {
+		outline: none;
 	}
