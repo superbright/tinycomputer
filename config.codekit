@@ -414,11 +414,22 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/images\/logo.png": {
+	"\/images\/logo-old.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3569,
+		"inputAbbreviatedPath": "\/images\/logo-old.png",
+		"outputAbbreviatedPath": "\/images\/logo-old.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6213,
 		"inputAbbreviatedPath": "\/images\/logo.png",
 		"outputAbbreviatedPath": "\/images\/logo.png",
 		"outputPathIsOutsideProject": 0,
@@ -480,7 +491,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "IGAL NASSIMA",
+"lastSavedByUser": "hilal koyuncu",
 "manualImportLinks": {
 	},
 "projectAttributes": {

@@ -1392,7 +1392,7 @@ textarea {
   border-radius: _size(border-radius);
   border: none;
   border: solid _size(border-width) _palette(border); */
-  color: #00FF00;
+  color: #ffff00;
   display: block;
   outline: 0;
   padding: 0 1em;
@@ -1513,27 +1513,27 @@ input[type="radio"] + label:before {
 
 ::-webkit-input-placeholder {
   /*color: _palette(fg-light) !important;*/
-  color: #00FF00;
+  color: #ffff00;
   opacity: 1.0; }
 
 :-moz-placeholder {
   /*color: _palette(fg-light) !important;*/
-  color: #00FF00;
+  color: #ffff00;
   opacity: 1.0; }
 
 ::-moz-placeholder {
   /*color: _palette(fg-light) !important;*/
-  color: #00FF00;
+  color: #ffff00;
   opacity: 1.0; }
 
 :-ms-input-placeholder {
   /*color: _palette(fg-light) !important;*/
-  color: #00FF00;
+  color: #ffff00;
   opacity: 1.0; }
 
 .formerize-placeholder {
   /*color: _palette(fg-light) !important;*/
-  color: #00FF00;
+  color: #ffff00;
   opacity: 1.0; }
 
 /*custom css*/
@@ -1546,7 +1546,7 @@ input[type="text"] {
   appearance: none;
   box-shadow: none;
   border-radius: none;
-  border-color: #00FF00;
+  border-color: #ffff00;
   transition: border 0.3s;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -1846,7 +1846,9 @@ button,
   input[type="button"].submit-button,
   button.submit-button,
   .button.submit-button {
-    margin-top: 7px; }
+    margin-top: 30px;
+    float: right;
+    width: 30%; }
   input[type="submit"].alt,
   input[type="reset"].alt,
   input[type="button"].alt,
@@ -1918,7 +1920,9 @@ button,
       input[type="button"].submit-button,
       button.submit-button,
       .button.submit-button {
-        margin-top: 7px; } }
+        margin-top: 7px;
+        float: none;
+        width: 100%; } }
 
 /* Grid Demo */
 .grid-demo {
@@ -2108,7 +2112,7 @@ body {
 /* Banner */
 #banner {
   padding: 8em 0 6em 0;
-  background-color: rgba(0, 0, 0, 0.88);
+  background-color: rgba(216, 216, 216, 0.88);
   text-align: center;
   margin: 0 auto; }
   #banner h2 {
@@ -2117,20 +2121,18 @@ body {
     margin: 0 0 0.5em 0;
     padding: 0; }
   #banner h4 {
-    color: #00FF00; }
+    color: #ffff00; }
   #banner p {
     font-size: 1.125em;
     margin-bottom: 1.75em;
-    color: #CECECE;
+    color: #272727;
     text-align: left; }
   @media screen and (max-width: 1680px) {
     #banner {
       padding: 4em 4em 2em 4em; } }
   @media screen and (max-width: 1280px) {
-    #banner {
-      padding: 5em 0 3em 0; }
-      #banner h2 {
-        font-size: 3.5em; } }
+    #banner h2 {
+      font-size: 3.5em; } }
   @media screen and (max-width: 980px) {
     #banner {
       padding: 6em 2em 4em 2em; } }
@@ -2191,11 +2193,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
   #top .logo {
-    width: 160px; }
+    width: 100px; }
   #top .logo-container {
     text-align: left; }
   @media screen and (max-width: 736px) {
     #top .logo {
-      width: 320px; }
+      width: 150px; }
     #top .logo-container {
       text-align: center; } }

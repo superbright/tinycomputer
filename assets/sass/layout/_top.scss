@@ -12,7 +12,7 @@
 		background-size: cover;
 
 		.logo {
-			width: 160px;
+			width: 100px;
 		}
 
 		.logo-container {
@@ -21,7 +21,7 @@
 
 		@include breakpoint(small) {
 			.logo {
-				width: 320px;
+				width: 150px;
 			}
 
 			.logo-container {
