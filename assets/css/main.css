@@ -2197,8 +2197,20 @@ body {
     width: 100px; }
   #top .logo-container {
     text-align: left; }
+  #top .sound-toggle {
+    color: yellow;
+    font-size: 50px;
+    position: fixed;
+    top: 50px;
+    right: 200px; }
   @media screen and (max-width: 736px) {
     #top .logo {
       width: 150px; }
     #top .logo-container {
-      text-align: center; } }
+      text-align: center; }
+    #top .sound-toggle {
+      color: yellow;
+      font-size: 50px;
+      position: fixed;
+      top: 50px;
+      right: 20px; } }
